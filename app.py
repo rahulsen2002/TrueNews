@@ -24,7 +24,7 @@ def predict_datapoint():
         if(result==1):
             result='True news'
         else:
-            result='Fake news'
+            result='False news'
 
 
         return render_template('index.html',result=result)
